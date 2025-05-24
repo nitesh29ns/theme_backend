@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+chromadb
+pydantic
+python-multipart
+langchain
+langchain_community
+langchain-groq
+pymongo[srv]
+
+# Install CPU-only PyTorch
+torch
+sentence-transformers
+transformers
+huggingface-hub
+
+
+easyocr
