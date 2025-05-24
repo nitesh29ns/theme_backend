@@ -1,11 +1,11 @@
 from fastapi import FastAPI, UploadFile, File
 from typing import List
-from services.upload_documents import upload_docs
-from services.raw_text_to_vectors import start_pipeline
-from services.extract_file_names import extracted_files
-from services.documents_for_query import selected_docs
-from services.llm_bot_response import llm_output
-from models.schema import Selected_documents, chatbot_input
+from app.services.upload_documents import upload_docs
+from app.services.raw_text_to_vectors import start_pipeline
+from app.services.extract_file_names import extracted_files
+from app.services.documents_for_query import selected_docs
+from app.services.llm_bot_response import llm_output
+from app.models.schema import Selected_documents, chatbot_input
 
 app = FastAPI()
 
