@@ -1,7 +1,7 @@
 from fastapi import UploadFile, File
 from typing import List
 from langchain_community.document_loaders import PyPDFLoader
-from db.mongodb import database
+from app.db.mongodb import database
 from app import config
 import easyocr
 import os

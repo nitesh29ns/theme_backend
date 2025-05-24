@@ -1,4 +1,4 @@
-from db.mongodb import database
+from app.db.mongodb import database
 from app import config
 
 def extracted_files():

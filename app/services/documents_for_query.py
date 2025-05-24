@@ -1,6 +1,6 @@
 import chromadb
-from services.embedding import MyEmbeddingFunction
-from db.mongodb import client
+from app.services.embedding import MyEmbeddingFunction
+from app.db.mongodb import client
 import zipfile, gridfs
 from app import config
 

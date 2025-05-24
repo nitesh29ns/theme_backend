@@ -5,9 +5,9 @@ from uuid import uuid4
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import chromadb
-from services.embedding import MyEmbeddingFunction
+from app.services.embedding import MyEmbeddingFunction
 import shutil, gridfs
-from db.mongodb import database, client
+from app.db.mongodb import database, client
 from app import config
 
 Persistent_folder = config.PRESISTENT_FOLDER

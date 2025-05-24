@@ -1,5 +1,5 @@
-from models.prompts import prompt_template
-from services.llm_model import model
+from app.models.prompts import prompt_template
+from app.services.llm_model import model
 import json
 
 
