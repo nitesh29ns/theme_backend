@@ -9,6 +9,6 @@ new
 # final tesing for push
 
 
-1.
+1. testing push with mongodb 1
 2.
 3. 
